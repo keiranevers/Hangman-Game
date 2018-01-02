@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+	<head>
+		<title>Hangman</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+		<link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+    	<div class="container">
+     		<h1>Hangman Pieces Of Us</h1>
+   		</div>
+
+		<div class="row container">
+			<div class="box col-sm-6">
+				<p>Guess the body part</p>
+				<br>
+				<p>My word</p>
+				<div style="text-align:center">
+					<div id="word"></div>
+				</div>
+				<br>
+				<div>Remaining Parts</div>
+				<div id="remainingGuesses" class="button col-sm-1">
+					<p>8</p>
+				</div>
+				<div>Letters Guessed</div>
+				
+				<div id="lettersGuessed">
+
+				</div>
+			</div>
+			<div class="box col-sm-6">
+				<p>Or DIE!!!</p>
+				<div id="hangman-frame" class="background">
+					<img src="assets/images/background.png" class="hangman">
+
+				</div>
+			</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="assets/javascript/game.js"></script>
+    </body>
